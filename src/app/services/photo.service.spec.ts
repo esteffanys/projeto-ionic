@@ -1,14 +1,13 @@
-
 import { TestBed } from '@angular/core/testing';
 
-import { FotoService } from './foto.service';
+import { PhotoService } from './photo.service';
 
-describe('FotoService', () => {
-  let service: FotoService;
+describe('PhotoService', () => {
+  let service: PhotoService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(FotoService);
+    service = TestBed.inject(PhotoService);
   });
 
   it('should be created', () => {
